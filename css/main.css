@@ -1,13 +1,13 @@
 tr,
 th,
 td {
-  color: rgb(2, 32, 58);
+  color: rgb(255, 255, 255);
 }
 
 table.default th {
   padding: 0.2em 0.8em;
-  border: 1px solid rgba(20, 50, 90, 0.25);
-  background: rgba(0, 102, 255, 0.25);
+  border: 1px solid rgba(53, 108, 180, 0.25);
+  background: rgba(96, 125, 168, 0.25);
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ user agent stylesheet table {
 
 caption {
   text-align: center;
-  color: #090240;
+  color: #eceaff;
 }
 
 .carousel-item img {
@@ -69,7 +69,7 @@ caption {
   text-align: -webkit-center;
 }
 
-h2 {
+h2, h3 {
   font-size: x-large;
   font-weight: 900;
   text-align: -webkit-center;
@@ -85,7 +85,7 @@ menu, ol {
 }
 
 menu, ol, li {
-  color: white;
+  color: rgb(211, 193, 115);
 }
 
 menu, ol ul {
@@ -95,4 +95,18 @@ menu, ol ul {
 
 menu, ul, li {
   margin-left: 10%;
+}
+
+#fot {
+  color: white;
+}
+
+ol > li {
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(45deg, rgb(223, 213, 18), rgb(88, 86, 86));
+  }
 }/*# sourceMappingURL=main.css.map */
