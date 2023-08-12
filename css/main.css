@@ -30,16 +30,6 @@ th {
   text-align: -internal-center;
 }
 
-.default {
-  margin-left: auto;
-}
-.default td {
-  padding: 0.2em 0.8em;
-}
-.default td th {
-  text-align: left;
-}
-
 table {
   margin-left: auto;
   margin-right: auto;
