@@ -4,6 +4,15 @@ td {
   color: rgb(255, 255, 255);
 }
 
+.header h2 {
+  text-align: center;
+  font-weight: bold;
+  color: wheat;
+}
+.header h2 a {
+  color: yellow;
+}
+
 table.default th {
   padding: 0.2em 0.8em;
   border: 1px solid rgba(53, 108, 180, 0.25);
@@ -19,6 +28,16 @@ th {
   vertical-align: inherit;
   font-weight: bold;
   text-align: -internal-center;
+}
+
+.default {
+  margin-left: auto;
+}
+.default td {
+  padding: 0.2em 0.8em;
+}
+.default td th {
+  text-align: left;
 }
 
 table {
@@ -69,7 +88,8 @@ caption {
   text-align: -webkit-center;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: x-large;
   font-weight: 900;
   text-align: -webkit-center;
@@ -80,20 +100,26 @@ body {
   background: linear-gradient(45deg, rgb(20, 61, 87), rgb(11, 10, 10));
 }
 
-menu, ol {
+menu,
+ol {
   list-style-type: decimal;
 }
 
-menu, ol, li {
+menu,
+ol,
+li {
   color: rgb(211, 193, 115);
 }
 
-menu, ol ul {
+menu,
+ol ul {
   list-style-type: circle;
   margin-left: 2em;
 }
 
-menu, ul, li {
+menu,
+ul,
+li {
   margin-left: 10%;
 }
 
@@ -103,6 +129,19 @@ menu, ul, li {
 
 ol > li {
   color: rgb(255, 255, 255);
+}
+
+.caja-nar, .caja-azul {
+  padding: 20px;
+  text-align: center;
+}
+
+.caja-azul {
+  background-color: #3498db;
+}
+
+.caja-nar {
+  background-color: #efa94a;
 }
 
 @media (max-width: 600px) {
